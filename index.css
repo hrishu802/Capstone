@@ -1,0 +1,249 @@
+body {
+    background-color: #F5F5EF;
+    min-height: 900px;
+    padding: 0 48px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    background-color: #F5F5EF;
+}
+
+header h1 {
+    font-family: Syne, sans-serif;
+    font-size: 2.625rem;
+    font-weight: 800;
+    color: #1D221B;
+}
+
+header a {
+    font-family: Cutive, sans-serif;
+    font-size: 1.75rem;
+    color: #1D221B;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: gray;
+}
+
+hr {
+    border: 2px solid rgba(23, 52, 9, 0.1);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.main_1 h2 {
+    font-family: Cutive, sans-serif;
+    font-size: 7.5rem;
+    text-align: center;
+    color: #1D221B;
+}
+
+.main_2 img {
+    width: 100%;
+    max-width: 1344px;
+    border-radius: 22px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1344px;
+    gap: 48px;
+    margin: 40px 0;
+}
+
+.projects img {
+    width: calc(100% - 32px);
+    max-width: 416px;
+    border-top: 2px solid #000;
+}
+
+.projects h3, .projects p {
+    font-family: Kumbh Sans, sans-serif;
+    color: #1D221B;
+    text-align: left;
+}
+
+.projects h3 {
+    font-size: 1.25rem;
+}
+
+.projects p {
+    font-size: 1.0625rem;
+    color: rgba(29, 34, 27, 0.62);
+}
+
+.middle {
+    padding: 96px 0;
+    background-color: #F5F5EF;
+    display: flex;
+    justify-content: center;
+}
+
+.middle h2 {
+    max-width: 900px;
+    font-family: Cutive, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #1D221B;
+}
+
+.middle_1 {
+    padding: 48px 0;
+    background-color: #F5F5EF;
+    display: flex;
+    justify-content: center;
+}
+
+.middle_1 h3, .middle_1 p {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.middle_1 h3 {
+    font-family: Cutive, sans-serif;
+    font-size: 1.75rem;
+    color: #1D221B;
+}
+
+.middle_1 p {
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 1.0625rem;
+}
+
+.middle_2 {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h3, .text p {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.text h3 {
+    font-family: Cutive, sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.text p {
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+
+.form input {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 56px;
+    height: 64px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(218, 218, 202, 0.4);
+    border: 2px solid rgba(23, 52, 9, 0.1);
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+    height: 36px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #204F0A;
+    color: #FBFFFA;
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 0.9375rem;
+}
+
+.p{
+    display: flex;
+    justify-content: center;    
+}
+
+.p p{
+    width: 31px;
+    height: 20px;
+    gap: 0px;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #204F0A;
+}
+
+.footer {
+    padding: 96px 0 24px;
+    background-color: #F5F5EF;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+footer h1 {
+    font-family: Cutive, sans-serif;
+    font-size: 1.75rem;
+    color: rgba(29, 34, 27, 0.62);
+}
+
+.f {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid rgba(23, 52, 9, 0.1);
+}
+
+.f a {
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 1.25rem;
+    color: #1D221B;
+    text-decoration: none;
+}
+@media (max-width: 1239px) {
+    .main_1 h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 889px) {
+    .main_1 h2 {
+        font-size: 4rem;
+    }
+
+    .projects img {
+        width: calc(100% - 32px);
+    }
+}
