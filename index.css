@@ -158,7 +158,6 @@ hr {
 
 .form input {
     margin-top: 20px;
-    width: 100%;
     max-width: 56px;
     height: 64px;
     padding: 8px;
@@ -245,5 +244,23 @@ footer h1 {
 
     .projects img {
         width: calc(100% - 32px);
+    }
+}
+@media (max-width: 425px) {
+    .form input{
+        max-width: 38px;
+        height: 40px;
+    }
+}
+@media (max-width: 375px) {
+    .form input{
+        max-width: 28px;
+        height: 30px;
+    }
+}
+@media (max-width: 325px) {
+    .form input{
+        max-width: 18px;
+        height: 20px;
     }
 }
